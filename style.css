@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    display: none;
+}
+
+.header-title
+{
+    margin-top: 1%;
+    margin-bottom: 2%;
+
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.discription
+{
+    font-size: 28px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.info
+{
+    margin-top: 3%;
+    background-color: black;
+    border-radius: 8px;
+    padding: 5px;
+    color: red;
+
+    font-size: 28px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.main
+{
+    margin-top: 2%;
+}
+
+.navigation
+{
+    display: none;
+}
+
+.blue
+{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+}
+
+.gray
+{
+ text-decoration: none;
+ font-size: 30px;
+ font-weight: 500;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ color: gray;
+}
+
+
+@media (min-width: 412px) and (max-width: 412px) 
+{
+
+.header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-title
+{
+    margin-top: 1%;
+    margin-bottom: 2%;
+
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.discription
+{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.info
+{
+    margin-top: 3%;
+    background-color: black;
+    border-radius: 8px;
+    padding: 5px;
+    color: red;
+
+    font-size: 15px;
+    font-weight: 600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.main
+{
+    margin-top: 2%;
+}
+
+.navigation
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blue
+{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+}
+
+.gray
+{
+ text-decoration: none;
+ font-size: 12px;
+ font-weight: 500;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ color: gray;
+}
+
+
+
+}
