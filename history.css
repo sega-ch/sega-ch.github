@@ -61,7 +61,7 @@ img
     flex-direction: column;
 }
 
-@media (min-width: 410px) and (max-width: 414px) 
+@media (max-width: 1000px) 
 {
     .header
 {
