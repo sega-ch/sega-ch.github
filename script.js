@@ -1,9 +1,9 @@
 function checkPwd()
 {
     var password = document.getElementById("psw");
-    var userPwd = password;
+    var userPwd = password.value;
 
-    if (userPwd==="7496Sp")
+    if (userPwd=="7496Sp")
     {
         
         return true;
